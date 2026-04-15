@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.leclowndu93150.sinkfaster.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "sinkfaster.refmap.json",
+  "mixins": [
+    "LivingEntityAccessor",
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

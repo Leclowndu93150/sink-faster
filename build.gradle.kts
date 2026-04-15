@@ -58,4 +58,14 @@ prism {
             loaderVersionRange = "[26.1,)"
         }
     }
+
+    publishing {
+        changelogFile = "CHANGELOG.md"
+        type = dev.prism.gradle.dsl.ReleaseType.STABLE
+
+        curseforge {
+            accessToken = providers.environmentVariable("CURSEFORGE_TOKEN")
+            projectId = "1515210"
+        }
+    }
 }

@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "com.leclowndu93150"
-version = "1.1.0"
+version = "1.1.1"
 
 prism {
     metadata {
@@ -29,7 +29,7 @@ prism {
         }
         forge {
             loaderVersion = "47.4.20"
-            loaderVersionRange = "[47,)"
+            loaderVersionRange = "[4,)"
         }
     }
 
@@ -42,7 +42,7 @@ prism {
         }
         neoforge {
             loaderVersion = "21.1.226"
-            loaderVersionRange = "[21.1,)"
+            loaderVersionRange = "[4,)"
         }
     }
 
@@ -55,7 +55,7 @@ prism {
         }
         neoforge {
             loaderVersion = "26.1.2.11-beta"
-            loaderVersionRange = "[26.1,)"
+            loaderVersionRange = "[4,)"
         }
     }
 
